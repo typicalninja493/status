@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "buildcss": "npx tailwindcss -i ./public/css/tail.css  -o ./public/css/tailwind.css --watch"
+  },
+  "dependencies": {
+    "@discordjs/collection": "^0.2.1",
+    "express": "^4.17.1",
+    "node-fetch": "^3.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.3.4",
+    "postcss": "^8.3.6",
+    "tailwindcss": "^2.2.15"
+  }
+}
